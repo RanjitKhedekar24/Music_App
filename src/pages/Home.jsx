@@ -7,7 +7,7 @@ import { CgPlayButtonO } from "react-icons/cg";
 import { FaRegCirclePause } from "react-icons/fa6";
 import { datacontext } from "../Context/UserContext";
 import { Card } from "../Component/Card";
-import Player from "../Component/player";
+import Player from "../Component/Player";
 
 function Home() {
   let {
