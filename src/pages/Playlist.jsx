@@ -1,5 +1,5 @@
 import React from "react";
-import Player from "../Component/Player";
+import Player from "../Component/player";
 import { useSelector } from "react-redux";
 import { Card } from "../Component/Card";
 

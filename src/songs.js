@@ -23,6 +23,7 @@ import song22 from "./assets/song22.mp3";
 import song23 from "./assets/song23.mp3";
 import song24 from "./assets/song24.mp3";
 import song25 from "./assets/song25.mp3";
+
 import image1 from "./assets/image1.jpg";
 import image2 from "./assets/image2.jpg";
 import image3 from "./assets/image3.jpg";
@@ -36,7 +37,7 @@ import image10 from "./assets/image10.jpg";
 import image11 from "./assets/image11.jpg";
 import image12 from "./assets/image12.jpg";
 import image13 from "./assets/image13.jpg";
-import image14 from "./assets/image14.jpg";
+import image14 from "./assets/image14.jpg"; 
 import image15 from "./assets/image15.jpg";
 import image16 from "./assets/image16.jpg";
 import image17 from "./assets/image17.jpg";

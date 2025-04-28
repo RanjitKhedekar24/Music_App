@@ -7,7 +7,7 @@ import { CgPlayButtonO } from "react-icons/cg";
 import { FaRegCirclePause } from "react-icons/fa6";
 import { datacontext } from "../Context/UserContext";
 import { Card } from "../Component/Card";
-import Player from "../Component/Player";
+import Player from "../Component/player";
 
 function Home() {
   let {
@@ -179,7 +179,7 @@ function Home() {
           </>
         ) : (
           <div className="w-[100%]  md:w-1/2 h-[80%] flex flex-col  items-center gap-3 mt-[60px] overflow-auto pb-[70px] bottom-1 relative">
-            <Player/>
+            <Player />
             {songsData.map((song, index) => (
               <Card
                 key={index}

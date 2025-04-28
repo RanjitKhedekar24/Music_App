@@ -9,18 +9,22 @@ import { Like } from "./pages/Like";
 function App() {
   return (
     <>
-      <BrowserRouter 
-        basename="/music-app" 
-        future={{ v7_startTransition: true, v7_relativeSplatPath: true }} // Add future flags here
-      >
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/playlist" element={<Playlist />} />
-          <Route path="/like" element={<Like />} />
-          <Route path="/search" element={<Search />} />
-        </Routes>
-      </BrowserRouter>
+      <BrowserRouter
+  future={{
+    v7_startTransition: true,
+    v7_relativeSplatPath: true
+  }}
+>
+  <Nav />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/playlist" element={<Playlist />} />
+    <Route path="/like" element={<Like />} />
+    <Route path="/search" element={<Search />} />
+    <Route path="*" element={<h1>404 - Page Not Found</h1>} />
+  </Routes>
+</BrowserRouter>
+
     </>
   );
 }
