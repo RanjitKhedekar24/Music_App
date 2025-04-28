@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Player from "../Component/player";
+import Player from "../Component/Player";
 import { TbMusicSearch } from "react-icons/tb";
 import { songsData } from "../songs";
 import {Card} from "../Component/Card";
